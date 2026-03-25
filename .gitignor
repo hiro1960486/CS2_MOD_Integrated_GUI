@@ -1,0 +1,10 @@
+.project_ck/
+資料/
+
+__pycache__/
+*.pyc
+*.pyo
+
+*.log
+Thumbs.db
+.DS_Store

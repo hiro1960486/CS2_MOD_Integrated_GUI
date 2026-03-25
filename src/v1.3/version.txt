@@ -1,0 +1,80 @@
+# ==========================================================
+# Project Information / プロジェクト情報
+# ==========================================================
+#
+# Project Name : CS2_MOD_Integrated_GUI
+# Version      : v1.3
+# Author       : owner
+# Updated      : 2026-03-23
+#
+# Description (概要):
+#     Cities: Skylines II の PdxModsCache.json を扱う
+#     統合GUIツールです。
+#
+#     このツールでは、以下の処理をGUIで選択して実行できます。
+#     - PdxModsCache.json のコピー
+#     - JSONデータのExcel変換
+#     - JSONデータのCSV変換
+#     - 前回設定したパスの保存 / 復元
+#     - 日本語 / English UI 切替
+#
+# Features (特徴):
+#     - JSONファイル選択対応
+#     - コピー先フォルダ指定対応
+#     - Excel出力先指定対応
+#     - CSV出力先指定対応
+#     - JSONコピー機能
+#     - Excel変換機能
+#     - CSV変換機能
+#     - 日本語 / 英語 UI 切替
+#     - 前回設定の自動保存 / 復元
+#     - GUI操作対応
+#
+# ----------------------------------------------------------
+# File Information / ファイル情報
+# ----------------------------------------------------------
+#
+# Main File : CS2_MOD_Integrated_GUI.py
+# Purpose   : CS2 MOD Cache 統合管理ツール（GUI）
+# Notes     : PdxModsCache.json のコピー、Excel変換、CSV変換を一括管理
+#
+# ----------------------------------------------------------
+# Required Libraries / 必要ライブラリ
+# Install (if needed):
+#     pip install pandas openpyxl
+# ----------------------------------------------------------
+#
+# ==========================================================
+# Developer Notes / 開発者向け情報
+# ==========================================================
+#
+# Dev File Name : CS2_MOD_Integrated_GUI.py
+# Dev Version   : v1.3-dev
+# Dev Summary   :
+#     - GUIベースの統合処理ツール
+#     - JSONコピー処理対応
+#     - Excel正規化出力対応
+#     - CSV正規化出力対応
+#     - 設定保存 / 復元対応
+#     - 日本語 / English UI 切替対応
+#
+# Additional Notes (備考):
+#     - EXE化した場合は、設定ファイルをEXEと同じ場所へ保存
+#     - py実行時は、このスクリプトと同じ場所へ設定ファイルを保存
+#     - 設定保存ファイル名:
+#         CS2_MOD_Integrated_GUI_settings.json
+#     - Excel / CSV 出力では以下のデータを処理:
+#         Mods / Tags / Requirements / DlcRequirements / Images / Links
+#
+# ==========================================================
+
+# -*- coding: utf-8 -*-
+"""
+CS2 PdxModsCache 統合ツール
+- PdxModsCache.json のコピー
+- PdxModsCache.json のExcel変換
+- PdxModsCache.json のCSV変換
+- すべてGUIで選択式
+- 前回指定したファイル/フォルダを次回起動時に復元
+- 日本語 / English 切替対応
+"""

@@ -1,0 +1,6 @@
+【Release用ハッシュ一覧】
+Version: v1.2
+対象件数: 1
+
+ファイル名: Release_v1.2.zip
+SHA256: 7235dea107db83be35a7cca9e16c1def86a1cf108431299c33a5a1e2dff3bc41
