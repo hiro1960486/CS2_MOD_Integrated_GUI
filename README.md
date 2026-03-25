@@ -75,3 +75,10 @@ CS2_MOD_INTEGRATED_GUI/
 ├─ tools/
 └─ version.txt
 
+---
+
+## License / ライセンス
+
+This project is licensed under the MIT License.
+
+このプロジェクトは MIT License のもとで公開されています。
