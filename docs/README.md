@@ -9,13 +9,13 @@ This folder contains the user manuals for CS2 MOD Integrated GUI.
 
 ### Japanese Manual / 日本語版
 
-- `CS2_MOD_Integrated_GUI_Manual_v1.3_JA.pdf`
+- [CS2_MOD_Integrated_GUI_Manual_v1.3_JA.pdf](./CS2_MOD_Integrated_GUI_Manual_v1.3_JA.pdf)
 
 日本語で操作手順や画面説明を確認したい場合はこちらを参照してください。
 
 ### English Manual / 英語版
 
-- `CS2_MOD_Integrated_GUI_Manual_v1.3_EN.pdf`
+- [CS2_MOD_Integrated_GUI_Manual_v1.3_EN.pdf](./CS2_MOD_Integrated_GUI_Manual_v1.3_EN.pdf)
 
 English-speaking users can use this manual for installation, operation steps, and troubleshooting.
 
